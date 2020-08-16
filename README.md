@@ -1,6 +1,6 @@
 ## YOLOv3(You Only Look Once v3)
-* #### Bounding Box Coordinate(조정)과 클래스 Classification(분류)를 동일 신경망 구조를 통해 동시에 실행
 * #### grid cell로 나누어 한 번에 클래스를 판단하고 통합하여 최종 객체를 판단
+* #### Bounding Box Coordinate(조정)과 클래스 Classification(분류)를 동일 신경망 구조를 통해 동시에 실행
 * #### 사람, 자전거, 자동차, 개, 고양이 등 약 80개의 레이블로 구성
   * ##### yolov3.weights 파일 : 사전 훈련된 네트워크 가중치
     * ##### 다운로드 : https://drive.google.com/drive/folders/1QnZHzsss3Jdz2QhvF3CKu0avBF7eMhlV?usp=sharing
