@@ -12,7 +12,7 @@
 * #### OpenCV Version : 3.x.x
   * ##### 설치 : https://blog.naver.com/dldudcks1779/222020005648
 ---
-## YOLO 이미지 객체 인식 시스템(Image Object Detection System)
+## YOLO 이미지 객체 인식 시스템(YOLO Image Object Detection System)
 * #### 이미지를 저장하지 않을 경우
   * sudo python3 yolo_object_detection_image.py --input 이미지 경로
     * 예) sudo python3 yolo_object_detection_image.py --input ./test_image/test_image_1.jpg
