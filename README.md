@@ -1,7 +1,8 @@
 ## YOLOv3(You Only Look Once v3)
-* #### 빠르고 효율적인 딥러닝 기반 Object Detection을 위해 MobileNet과 SSD를 결합한 MobileNet SSD를 사용
-* #### 이미지를 분류하기 위한 CNN(Convolution Neural Network)의 MobileNet은 같은 레이어 수의 다른 CNN 구조에 비해 낮은 파라미터 수로 인하여 작은 응답 지연 시간을 가짐
-* #### 객체 인식을 위한 딥러닝 모델 중 하나인 SSD(Single Shot Multibox Detector)는 입력한 하나의 이미지만 CNN을 실행하여 객체를 탐지
+* #### Bounding Box Coordinate(조정)과 클래스 Classification(분류)를 동일 신경망 구조를 통해
+동시에 실행
+* #### grid cell로 나누어 한 번에 클래스를 판단하고 통합하여 최종 객체를 판단
+* #### 사람, 자전거, 자동차, 개, 고양이 등 약 80개의 레이블로 구성
   * ##### yolov3.weights 파일 : 사전 훈련된 네트워크 가중치
     * ##### 다운로드 : https://drive.google.com/drive/folders/1QnZHzsss3Jdz2QhvF3CKu0avBF7eMhlV?usp=sharing
   * ##### yolov3.cfg 파일 : 네트워크 구성
