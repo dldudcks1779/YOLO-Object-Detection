@@ -4,8 +4,8 @@
 * #### 객체 인식을 위한 딥러닝 모델 중 하나인 SSD(Single Shot Multibox Detector)는 입력한 하나의 이미지만 CNN을 실행하여 객체를 탐지
   * ##### yolov3.weights 파일 : 사전 훈련된 네트워크 가중치
     * ##### 다운로드 : https://drive.google.com/drive/folders/1QnZHzsss3Jdz2QhvF3CKu0avBF7eMhlV?usp=sharing
-  * ##### yolov3.cfg 파일 : 네트워크 구성 
-  * coco.names 파일 : coco dataset에 사용된 80가지 클래스 이름
+  * ##### yolov3.cfg 파일 : 네트워크 구성
+  * ##### coco.names 파일 : coco dataset에 사용된 80가지 클래스 이름
 ---
 ### 실행 환경
 * #### Ubuntu
